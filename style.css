@@ -1,0 +1,155 @@
+body{
+    width: 1920px;
+height: 1080px;
+
+    background-color: #E4DEE4;
+}
+
+.wrapperHeader{
+
+
+position: absolute;
+left: 42.71%;
+right: 42.76%;
+top: 1%;
+bottom: 90.28%;
+font-weight: 400;
+font-family: 'Kaisei Tokumin', serif;
+
+}
+.wrapperHeader h1{
+
+    text-align: center;
+    font-family: 'Kaisei Tokumin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 58px
+    
+
+}
+
+
+
+.Button{ 
+    
+    font-family: 'Julius Sans One', sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 10px;
+    
+    position: absolute;
+    left: 37.45%;
+    right: 37.45%;
+    top: 83.24%;
+    bottom: 11.39%;
+    border: 1px solid #000000;
+    border-radius: 69px;
+    text-decoration: none;
+    color: black;
+    list-style: none;
+
+    
+
+}
+.Button p{
+    width: 103px;
+    height: 22px;
+    text-align: center;
+    
+    font-style: normal;
+    font-weight: 400;
+    font-size: 100%;
+    line-height: 22px;
+}
+
+.wrapperText{
+    position: absolute;
+    left: 41%;
+    right: 41%;
+    top: 46.39%;
+    bottom: 51.57%;
+
+}
+
+.wrapperText p{
+    font-family: 'Julius Sans One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 22px;
+    text-align: center;
+
+}
+
+
+#gallery{
+
+    font-family: 'Julius Sans One', sans-serif;
+    position: absolute;
+    left: 91.93%;
+    right: 3.85%;
+    top: 6.39%;
+    bottom: 91.57%;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 22px;
+
+    text-decoration: none;
+    color: black;
+
+
+}
+
+
+
+
+
+@media (max-width: 800px){
+
+    #gallery{
+
+        font-family: 'Julius Sans One', sans-serif;
+        position: absolute;
+         left: 37.5%;
+        right: 37.19%;
+        top: 32.75%;
+        bottom: 63.38%;
+    
+        text-decoration: none;
+        color: black;
+    
+    
+    }
+
+
+    .Button{
+        
+        left: 7.5%;
+        right: 7.5%;
+        top: 82.57%;
+        bottom: 7.22%;
+    }
+
+    .wrapperText p{
+        display: none;
+    
+    }
+    .wrapperHeader{
+
+        left: 16.88%;
+        right: 16.88%;
+        top: 1.76%;
+        bottom: 88.03%;
+
+
+    }
+        
+    
+
+    
+
+}
