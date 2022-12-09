@@ -109,6 +109,13 @@ font-family: 'Kaisei Tokumin', serif;
 
 
 @media (max-width: 800px){
+    body{
+        width: auto;
+    height: auto;
+    
+        background-color: #E4DEE4;
+    }
+    
 
     #gallery{
 
