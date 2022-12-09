@@ -45,7 +45,18 @@ body{
     height: 10%;
 }
 
+ul{
+display: inline-block ;
 
+
+}
+
+ul img{
+width: auto;
+height: 80%;
+background: #AF9FA5;
+    
+}
 #content{
 display: inline-block;
 width: auto;
