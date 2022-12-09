@@ -54,14 +54,14 @@ display: inline-block ;
 ul img{
 width: auto;
 height: 80%;
-background: #AF9FA5;
+
     
 }
 #content{
 display: inline-block;
 width: auto;
 height: 25vh;
-background: #AF9FA5;
+
 }
 
 
@@ -75,25 +75,28 @@ background: #AF9FA5;
         width: auto;
         height: 20%;
     }
-    #content{
-        
-        display: inline-block;
-        width: min-content;
-        height: 25vh;
-        margin: 1%;
-        
-            background: #AF9FA5;
-        }
 
-         .wrapperHeader{
+    ul{
+        display: inline-block ;
+        text-align: center;
+        
+        }
+        
+        ul img{
+            
+        width: auto;
+        height: 80%;
+        
+            
+        }
+    
+    .wrapperHeader{
         position: sticky;
 
         left: 16.88%;
         right: 16.88%;
         top: 1.76%;
         bottom: 88.03%;
-
-
     }
 
     body{
